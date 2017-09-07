@@ -15,3 +15,12 @@ def check_if_prime_number(num):
         print(num, "is a prime number.")
 
     return
+
+def display_fibonacci(lastNum):
+    """Display the Fibonacci sequence up until the input number"""
+    a = 0
+    b = 1
+    while(b < lastNum):
+        print(b)
+        a, b = b, a+b
+    return
